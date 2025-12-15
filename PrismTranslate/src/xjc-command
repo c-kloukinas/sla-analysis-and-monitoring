@@ -1,0 +1,2 @@
+# check the makefile
+# xjc -d $(ORG)  ws-agreement-demo.xsd -XautoNameResolution -extension simpleMode.xml

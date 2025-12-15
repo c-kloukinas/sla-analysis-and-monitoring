@@ -1,0 +1,10 @@
+#! /bin/sh -
+
+if [ -f /opt/local/share/java/abcl/abcl.jar ] ; then
+  echo /opt/local/share/java/abcl
+elif [ -f ${HOME}/lib/abcl/abcl.jar ] ; then
+  echo ${HOME}/lib/abcl
+else
+  echo Unknown location of abcl.jar >&2
+  exit 1
+fi

@@ -1,0 +1,17 @@
+./Translator/EvalNode.class
+./Translator/Evaluator$1.class
+./Translator/Evaluator$Converted.class
+./Translator/Evaluator.class
+./Translator/ExpressionType.class
+./Translator/IDInfo.class
+./Translator/LispActionRec.class
+./Translator/LispGTRec.class
+./Translator/ReflectiveVisitor.class
+./Translator/SLAManager.class
+./Translator/Translate$1.class
+./Translator/Translate$2.class
+./Translator/Translate$3.class
+./Translator/Translate.class
+./Translator/TranslationMode.class
+./Translator/Visitable.class
+./Translator/VisitableImpl.class

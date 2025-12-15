@@ -1,0 +1,16 @@
+#! /bin/sh -
+
+me=$0
+myDir=`dirname "${me}"`
+myDir=`(cd "${myDir}"; pwd)`
+
+ABCL_ROOT=`"${myDir}/where-is-abcl"`
+BIN="${myDir}/../bin"
+CMS="${myDir}/../Cms"
+ORG="${myDir}/../xjc"
+ORGBIN=${BIN}
+ORGBIN=${ORG}
+FBIN="${myDir}/../fbin"
+JFLAGS="-enableassertions --add-modules java.se.ee"
+
+java ${JFLAGS} -cp "${ABCL_ROOT}/abcl.jar:${BIN}/cumulus-xsd-schema.jar:${BIN}/translator.jar" Translator.Translate $@
